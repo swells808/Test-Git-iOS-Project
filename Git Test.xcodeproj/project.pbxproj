@@ -14,6 +14,7 @@
 		F57E5E6D1A96B00C00A534FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57E5E6C1A96B00C00A534FD /* Images.xcassets */; };
 		F57E5E701A96B00C00A534FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E5E6E1A96B00C00A534FD /* LaunchScreen.xib */; };
 		F57E5E7C1A96B00C00A534FD /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E5E7B1A96B00C00A534FD /* Git_TestTests.m */; };
+		F57E5E871A96B1A200A534FD /* testTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E5E861A96B1A200A534FD /* testTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F57E5E751A96B00C00A534FD /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57E5E7A1A96B00C00A534FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F57E5E7B1A96B00C00A534FD /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		F57E5E851A96B1A200A534FD /* testTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testTableViewController.h; sourceTree = "<group>"; };
+		F57E5E861A96B1A200A534FD /* testTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		F57E5E531A96B00C00A534FD = {
 			isa = PBXGroup;
 			children = (
+				F57E5E851A96B1A200A534FD /* testTableViewController.h */,
+				F57E5E861A96B1A200A534FD /* testTableViewController.m */,
 				F57E5E5E1A96B00C00A534FD /* Git Test */,
 				F57E5E781A96B00C00A534FD /* Git TestTests */,
 				F57E5E5D1A96B00C00A534FD /* Products */,
@@ -222,6 +227,7 @@
 				F57E5E681A96B00C00A534FD /* ViewController.m in Sources */,
 				F57E5E651A96B00C00A534FD /* AppDelegate.m in Sources */,
 				F57E5E621A96B00C00A534FD /* main.m in Sources */,
+				F57E5E871A96B1A200A534FD /* testTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
